@@ -17,6 +17,8 @@
 
 <body class="font-sans antialiased">
 
+    <x-app-nav />
+
     {{ $slot }}
 
     @stack('scripts')
