@@ -19,7 +19,11 @@
 
     <x-app-nav />
 
-    {{ $slot }}
+    <main>
+        {{ $slot }}
+    </main>
+
+    <footer></footer>
 
     @stack('scripts')
 </body>
