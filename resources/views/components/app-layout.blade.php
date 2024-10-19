@@ -23,7 +23,7 @@
         {{ $slot }}
     </main>
 
-    <footer></footer>
+    <x-app-footer />
 
     @stack('scripts')
 </body>
