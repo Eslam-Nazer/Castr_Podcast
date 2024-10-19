@@ -48,7 +48,7 @@
     <div class="bg-white py-20 sm:py-32">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <div class="flex flex-col text-center">
-                <h2 class="p-2 mb-2 text-4xl font-bold">Trusted by some of the worlds most popular podcasts</h2>
+                <h2 class="p-2 mb-2 text-4xl font-bold text-indigo-500">Trusted by some of the worlds most popular podcasts</h2>
                 <p class="p-2 mb-3 text-2xl">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
             </div>
             <dl class="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3">
