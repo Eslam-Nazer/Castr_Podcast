@@ -1,5 +1,5 @@
 <x-app-layout>
-
+    <!-- Hero Section -->
     <div class="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
         <img src="https://images.unsplash.com/photo-1478737270239-2f02b77fc618?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Podcasting" class="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center blur-sm">
         <div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl" aria-hidden="true">
@@ -43,5 +43,30 @@
             </div>
         </div>
     </div>
+
+    <!-- Stats Section -->
+    <div class="bg-white py-20 sm:py-32">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+            <div class="flex flex-col text-center">
+                <h2 class="p-2 mb-2 text-4xl font-bold">Trusted by some of the worlds most popular podcasts</h2>
+                <p class="p-2 mb-3 text-2xl">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <dl class="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3">
+                <div class="mx-auto flex max-w-xs flex-col gap-y-4">
+                    <dt class="text-base leading-7 text-gray-600">Transactions every 24 hours</dt>
+                    <dd class="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">44 million</dd>
+                </div>
+                <div class="mx-auto flex max-w-xs flex-col gap-y-4">
+                    <dt class="text-base leading-7 text-gray-600">Assets under holding</dt>
+                    <dd class="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">$119 trillion</dd>
+                </div>
+                <div class="mx-auto flex max-w-xs flex-col gap-y-4">
+                    <dt class="text-base leading-7 text-gray-600">New users annually</dt>
+                    <dd class="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">46,000</dd>
+                </div>
+            </dl>
+        </div>
+    </div>
+
 
 </x-app-layout>
