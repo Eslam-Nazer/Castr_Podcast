@@ -1,7 +1,7 @@
 <header class="bg-white border-2 border-b-slate-200">
     <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div class="flex lg:flex-1">
-            <a href="#" class="-m-1.5 p-1.5 text-indigo-500">
+            <a href="{{ route('static:home') }}" class="-m-1.5 p-1.5 text-indigo-500">
 
                 <span class="sr-only">Castr</span>
                 <x-app-logo class="h-8 w-auto" />
@@ -172,6 +172,7 @@
             <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Features</a>
             <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Marketplace</a>
             <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Company</a>
+            <a href="{{ route('static:about') }}" class="text-sm font-semibold leading-6 text-gray-900">About</a>
         </div>
         <div class="hidden lg:flex lg:flex-1 lg:justify-end">
             <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Log in <span
@@ -185,7 +186,7 @@
         <div x-data="{ open: false }"
             class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
             <div class="flex items-center justify-between">
-                <a href="#" class="-m-1.5 p-1.5 text-indigo-500">
+                <a href="{{ route('static:home') }}" class="-m-1.5 p-1.5 text-indigo-500">
                     <span class="sr-only">Castr</span>
                     <x-app-logo class="h-8 w-auto" />
 
