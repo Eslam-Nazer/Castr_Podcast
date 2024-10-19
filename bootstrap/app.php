@@ -16,10 +16,8 @@ return Application::configure(basePath: dirname(__DIR__))
         then: function () {
             // Static application routes; all public pages.
             Route::middleware('web')
-                ->as(value: "static:")
-                ->group(
-                    callback: base_path(path: "routes/static.php")
-                );
+                ->as("static:")
+                ->group(base_path("routes" . DIRECTORY_SEPARATOR . "static.php"));
         }
     )
     ->withMiddleware(function (Middleware $middleware) {
