@@ -45,7 +45,7 @@
     </div>
 
     <!-- Stats Section -->
-    <div class="bg-white py-20 sm:py-32">
+    <div class="py-20 sm:py-32 bg-gray-100">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <div class="flex flex-col text-center">
                 <h2 class="p-2 mb-2 text-4xl font-bold text-indigo-500">Trusted by some of the worlds most popular podcasts</h2>
@@ -125,6 +125,24 @@
                     </div>
                 </dl>
             </div>
+        </div>
+    </div>
+
+    <!-- Feature Podcast -->
+    <div class="py-24 sm:py-32 bg-gray-100">
+        <div class="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
+            <div class="max-w-2xl">
+                <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Podcast of the month</h2>
+                <p class="mt-6 text-lg leading-8 text-gray-600">We curate and score the latest podcast for you to find something that suits your taste.</p>
+            </div>
+            <ul role="list" class="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
+
+                <x-podcasts.card />
+                <x-podcasts.card />
+                <x-podcasts.card />
+                <x-podcasts.card />
+
+            </ul>
         </div>
     </div>
 
