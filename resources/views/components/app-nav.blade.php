@@ -176,7 +176,9 @@
             <a href="{{ route('static:about') }}" class="text-sm font-semibold leading-6 text-gray-900">About</a>
         </div>
         <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Log in <span
+            <a href="{{ route('login') }}" class="text-sm font-semibold leading-6 text-gray-900">Log in <span
+                    aria-hidden="true">&rarr;</span></a>
+            <a href="{{ route('register') }}" class="text-sm px-2 font-semibold leading-6 text-gray-900">Sign up <span
                     aria-hidden="true">&rarr;</span></a>
         </div>
     </nav>
