@@ -172,6 +172,7 @@
             <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Features</a>
             <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Marketplace</a>
             <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Company</a>
+            <a href="{{ route('static:pricing')}}" class="text-sm font-semibold leading-6 text-gray-900">Pricing</a>
             <a href="{{ route('static:about') }}" class="text-sm font-semibold leading-6 text-gray-900">About</a>
         </div>
         <div class="hidden lg:flex lg:flex-1 lg:justify-end">
@@ -245,6 +246,10 @@
                             class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Marketplace</a>
                         <a href="#"
                             class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Company</a>
+                        <a href="{{ route('static:pricing') }}"
+                            class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Pricing</a>
+                        <a href="{{ route('static:about') }}"
+                            class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">About</a>
                     </div>
                     <div class="py-6">
                         <a href="#"
