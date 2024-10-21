@@ -2,7 +2,7 @@
 
 namespace Tests\Feature;
 
-use App\Models\User;
+use Castr\Domains\Shared\Models\User;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Str;
 use Laravel\Jetstream\Features;
@@ -26,7 +26,7 @@ class ApiTokenPermissionsTest extends TestCase
             'abilities' => ['create', 'read'],
         ]);
 
-        $this->put('/user/api-tokens/'.$token->id, [
+        $this->put('/user/api-tokens/' . $token->id, [
             'name' => $token->name,
             'permissions' => [
                 'delete',
